@@ -7,6 +7,8 @@ public class bank {
     
     // Constructor
     public bank(){
+        // Calling a parameterized constructor within a constructor using this keyword
+        this("Pach","pach@gmail.com",99008877,8998876,88990.76); //!!!!!!!!MUST ALWAYS BE IN THE FIRSTLINE
         System.out.println("Default constructor called!");
     }
 

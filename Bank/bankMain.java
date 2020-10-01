@@ -17,5 +17,8 @@ public class bankMain {
         // With constructor
         bank person1 = new bank("Joe ","joe@gmail.com ",8833477,4433550,88990.00);
         person1.getDetails();
+        // calling constructor within another constructor
+        bank person2 = new bank();
+        person2.getDetails();
     }
 }
