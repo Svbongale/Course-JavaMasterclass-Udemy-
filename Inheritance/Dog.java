@@ -16,6 +16,6 @@ public class Dog extends Animal {
     }
 
     public void getDogDetails(){
-        System.out.println("Eyes:" + this.eyes + "legs" + this.legs + "breed" + this.breed);
+        System.out.println("Eyes:" + this.eyes + "legs" + this.legs + "breed" + this.breed + "teeth" + this.teeth + "tail" + this.tail);
     }
 }

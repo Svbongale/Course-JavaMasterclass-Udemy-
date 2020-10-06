@@ -1,5 +1,5 @@
 public class vipCust {
-    private String name;
+    protected String name;
     private double credLimit;
     private String email;
 
