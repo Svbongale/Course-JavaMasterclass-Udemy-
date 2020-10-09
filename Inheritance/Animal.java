@@ -1,3 +1,5 @@
+package Inheritance;
+
 public class Animal {
     private String name;
     private int brain;
@@ -15,6 +17,15 @@ public class Animal {
         this.size = size;
         this.weight = weight;
     }
+
+    public void eat(){
+        System.out.println(this.name + " Eats");
+    }
+
+    public void move(){
+        System.out.println(this.name + " moves");
+    }
+
 
     public String getName(){
         return this.name;
